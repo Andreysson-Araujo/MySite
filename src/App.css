@@ -81,6 +81,12 @@ a{
   max-width: 600px;
 }
 
+.primary-subheading {
+  font-weight: 700;
+  color: #9400D3;
+  font-size: 1.15rem;
+}
+
 .primary-text {
   font-size: clamp(2rem, 3vw, 2rem);
   max-width: 500px;
