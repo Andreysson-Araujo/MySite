@@ -9,10 +9,9 @@ import "../styles/opsFriends.css";
 const Friends = () => {
   return (
     <div className="opsfriends-container">
-      <div>
+      <div className="opsfriends-banner-container">
         <img className="sorvete-pixel" src={Sorvete}/>
         <img className="box-head" src={BoxHead}/> 
-        <img className="dino-pixel" src={PinkSauro}/>
         <img className="piperman" src={PiperMan}/>
       </div> 
       
