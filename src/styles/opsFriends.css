@@ -1,0 +1,27 @@
+.opsfriends-container{
+    display: flex;
+    margin-top : 5rem;
+}
+
+.piperman{
+    left: 80rem;
+    margin-top: -150px;
+    z-index: -2;
+    max-width: 300px;
+}
+.sorvete-pixel{
+    z-index: -2;
+    margin-top: 20;
+    margin-left: 2rem;
+    max-width: 300px;
+    
+}
+.dino-pixel {
+    max-width: 200px;
+    margin-left: 5rem;
+    margin-top: -5rem;
+}
+.box-head{
+    position: absolute;
+    margin-top: 14rem;
+}
