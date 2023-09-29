@@ -1,13 +1,20 @@
 import React from "react";
 import Barra from "./Barra";
+import "../styles/Home.css"
 import BannerBackground from "../assets/home-banner-background.png";
 import Mage from "../assets/mage.png"
 import BannerImage from "../assets/untitled.png";
 import Pok from "../assets/pok.png"
 import { AiOutlineGithub } from "react-icons/ai";
-import "../styles/Home.css";
+
+
 
 const Home = () => {
+  const abrirLink = () => {
+    const link = "https://github.com/Andreysson-Araujo";
+    window.open(link, "_blank")
+  }
+
   return (
     <div className="home-container">
       <Barra />
@@ -21,7 +28,7 @@ const Home = () => {
             O pior melhor Programador do Mundo
           </h1>
           <p className="primary-text">Qualidade e gambiarra? É comigo mesmo</p>
-          <button className="secondary-button">
+          <button className="secondary-button" onClick={abrirLink}>
             Repositorios <AiOutlineGithub size="1.7rem" />
           </button>
         </div>

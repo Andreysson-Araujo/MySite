@@ -26,3 +26,11 @@
     display: flex;
     left: 10rem;
 }
+
+@media (max-width: 767px) { 
+    .piperman,
+    .sorvete-pixel,
+    .box-head {
+      display: none;
+    }
+}

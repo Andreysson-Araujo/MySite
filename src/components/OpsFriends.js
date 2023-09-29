@@ -1,10 +1,9 @@
 import { React } from "react";
 import Sorvete from "../assets/sorve.png"
 import BoxHead from "../assets/box-head.png"
-import PinkSauro from "../assets/pinksauro.png"
 import PiperMan from "../assets/pipercreep.png"
-import Mage from "../assets/mage.png"
-import "../styles/opsFriends.css";
+import "../styles/opsFriends.css"
+
 
 const Friends = () => {
   return (

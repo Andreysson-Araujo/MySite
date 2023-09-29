@@ -1,6 +1,7 @@
 import { React } from "react";
 import "../App.css";
-import "../styles/Projects.css";
+import "../styles/Projects.css"
+
 import Financa from "../assets/pngegg.png"
 import siteImg from "../assets/site.png"
 import Pong from "../assets/pong.png"
